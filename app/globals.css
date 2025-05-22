@@ -1677,8 +1677,7 @@ INDEX:
 .service_details .all-post-list li{
     margin: 0;
 	position: relative;
-	-webkit-clip-path: polygon(101% 0,100% calc(101% - 14px),calc(100% - 14px) 101%,0 100%,0 0);
-    clip-path: polygon(101% 0,100% calc(101% - 14px),calc(100% - 14px) 101%,0 100%,0 0);
+
 }
 .service_details .all-post-list li a{
 	padding: 14px 25px 14px 35px;
@@ -1693,20 +1692,19 @@ INDEX:
     -webkit-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
 }
-.service_details .all-post-list li a:before{
-	position: absolute;
-    content: "\e814";
-    left: inherit;
-    right: 35px;
+.service_details .all-post-list li a::before {
+    position: absolute;
+    content: "\f054"; /* Font Awesome "chevron-right" icon */
+    right: 15px;
     font-size: 17px;
-    line-height: 0;
-    color: inherit;
-    font-family: 'pbminfotech-base-icons';
-    top: 50%;
-    z-index: 1;
+    line-height: 1;
     color: var(--pbmit-global-color);
-    -webkit-transition: all .25s ease-in-out;
-    transition: all .25s ease-in-out;
+    font-family: "Font Awesome 6 Free"; /* Or 5 if you use FA5 */
+    font-weight: 900; /* Required for solid icons */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    transition: all 0.25s ease-in-out;
 }
 .service_details .all-post-list li a:after{
 	position: absolute;
@@ -1727,13 +1725,17 @@ INDEX:
 .service_details .all-post-list li.post-active a{
 	color: var(--pbmit-white-color);
 	background-color: var(--pbmit-global-color);
+	text-decoration:  none;
+
 }
 .service_details .all-post-list li:hover a:before,
 .service_details .all-post-list li.post-active a:before{
+	text-decoration:  none;
 	color: var(--pbmit-white-color);
 }
 .service_details .all-post-list li.post-active a:after{
 	background-color: var(--pbmit-white-color);
+	text-decoration:  none;
 }
 .widget .download{
 	display: block;
@@ -3223,25 +3225,14 @@ body {
 		width: 12px;
 	}
 	.main-menu .navigation > li > ul a:before{
-		position: absolute;
-		content: "";
-		left: 0;
-		right: auto;
-		top: 50%;
-		bottom: auto;
-		-webkit-transform: translateY(-50%);
-		-moz-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-		-o-transform: translateY(-50%);
-		transform: translateY(-50%);
-		width: 0;
-		height: 1px;
-		background-color: var(--pbmit-blackish-color);
-		-webkit-transition: all 0.3s ease-out 0s;
-		-moz-transition: all 0.3s ease-out 0s;
-		-ms-transition: all 0.3s ease-out 0s;
-		-o-transition: all 0.3s ease-out 0s;
-		transition: all 0.3s ease-out 0s;
+		 content: '\f078'; /* Font Awesome chevron-down */
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900; /* Solid style */
+    font-size: 12px;
+    margin-left: 7px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
 	}
    .main-menu .navigation > li > ul > li > ul{
 		left: 100%;
@@ -3249,15 +3240,14 @@ body {
 		margin-top: -8px;
    }
    .main-menu ul > li.dropdown > ul > li.dropdown::after {
-		position: absolute;
-		right: 25px;
-		font-family: "pbminfotech-base-icons";
-		font-size: 16px;
-		content: "\e814";
-		font-weight: 600;
-		margin-left: 8px;
-		top: 5px;
-		color: var(--pbmit-blackish-color);
+	font-family: 'Font Awesome 6 Free'; /* Use Font Awesome 6 Free (Solid) */
+    font-weight: 900;                  /* 900 = Solid style */
+    font-size: 12px;                   /* Size of the icon */
+    content: '\f078';                  /* Unicode for 'fa-chevron-down' */
+    margin: 1px 0 0 7px;               /* Margin to the left of the text */
+    display: inline-block;             /* Keep it inline with text */
+    vertical-align: middle;           /* Align vertically with the text */
+    transition: transform 0.3s ease;
    }
 	.site-header .pbmit-header-button a {
 		font-size: 14px;
@@ -3273,15 +3263,14 @@ body {
 		height: 13px;
 	}
 	.site-header .pbmit-header-button a::after {
-		content: '';
-		position: absolute;
-		width: 100%;
-		height: 2px;
-		background-color: var(--pbmit-secondary-color);
-		left: 0;
-		bottom: -7px;
-		-webkit-transition: all .25s ease-in-out;
-		transition: all .25s ease-in-out;
+	content: '\f078'; /* Font Awesome chevron-down */
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900; /* Solid style */
+    font-size: 12px;
+    margin-left: 7px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
 	}
 	.site-header .pbmit-header-button a:hover:after{
 		background-color: var(--pbmit-global-color);
@@ -3289,12 +3278,15 @@ body {
 		transition: all .25s ease-in-out;
 	}
 	.main-menu ul > li.dropdown > a:after{
-		font-family: "pbminfotech-base-icons";
-		font-size: 12px;
-		content: '\e811';
-		font-weight: 600;
-		margin: 1px 0 0 7px;
-		color: var(--pbmit-white-color);
+		content: '\f078'; /* Font Awesome chevron-down */
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900; /* Solid style */
+    font-size: 12px;
+    margin-left: 7px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+	text-decoration:  none;
 	}
 }
 
@@ -9484,4 +9476,13 @@ body.rtl .pbmit-element-split-slide-style-1 .pbmit-bg-imgbox .pbmit-contentbox {
 .pbmit-animation-style2 .pbmit-service-img02 img{
 	transform-origin: 50% 50%;
 	transition: 2s cubic-bezier(0.5, 0.5, 0, 1);
+}
+
+
+ol, ul {
+	padding-left: 0px !important;
+}
+ol, ul ,li {
+
+	text-decoration: none !important;
 }

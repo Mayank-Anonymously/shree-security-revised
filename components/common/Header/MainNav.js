@@ -3,10 +3,10 @@ const MainNav = () => (
 	<div className='pbmit-logo-menuarea d-flex align-items-center'>
 		<div className='site-branding'>
 			<h1 className='site-title'>
-				<a href='index-2.html'>
+				<a href='/'>
 					<img
 						className='logo-img'
-						src='images/logo-white.svg'
+						src='/images/logo-white.svg'
 						alt='Protecta'
 					/>
 				</a>
@@ -28,22 +28,106 @@ const MainNav = () => (
 					<div className='pbmit-menu-wrap'>
 						<span className='closepanel'>×</span>
 						<ul className='navigation clearfix'>
-							{/* Repeat li items as needed */}
 							<li className='dropdown active'>
-								<a href='/index-2.html'>Home</a>
+								<a
+									href='/index-2.html'
+									className='text-decoration-none'>
+									Home
+								</a>
 								<ul>
 									<li className='active'>
 										<a href='/index-2.html'>CCTV Security</a>
 									</li>
 									<li>
-										<a href='/homepage-2.html'>Security Guard</a>
+										<a
+											href='/homepage-2.html'
+											className='text-decoration-none'>
+											Security Guard
+										</a>
 									</li>
 									<li>
-										<a href='/homepage-3.html'>Locksmith</a>
+										<a
+											href='/homepage-3.html'
+											className='text-decoration-none'>
+											Locksmith
+										</a>
 									</li>
 								</ul>
 							</li>
-							{/* Add more menu items */}
+							<li className=''>
+								<a
+									href='/contact-us'
+									className='text-decoration-none'>
+									Contact Us
+								</a>
+							</li>
+							<li className=''>
+								<a
+									href='/about-us'
+									className='text-decoration-none'>
+									About Us
+								</a>
+							</li>
+							<li className='dropdown active'>
+								<a
+									href='/index-2.html'
+									className='text-decoration-none'>
+									Services
+								</a>
+								<ul>
+									<li className='active'>
+										<a
+											href='/index-2.html'
+											className='text-decoration-none'>
+											CCTV Security
+										</a>
+									</li>
+									<li>
+										<a
+											href='/homepage-2.html'
+											className='text-decoration-none'>
+											Security Guard
+										</a>
+									</li>
+									<li>
+										<a
+											href='/homepage-3.html'
+											className='text-decoration-none'>
+											Locksmith
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li className='dropdown active'>
+								<a
+									href='/index-2.html'
+									className='text-decoration-none'>
+									Locations
+								</a>
+								<ul>
+									<li className='active'>
+										<a
+											href='/index-2.html'
+											className='text-decoration-none'>
+											CCTV Security
+										</a>
+									</li>
+									<li>
+										<a
+											href='/homepage-2.html'
+											className='text-decoration-none'>
+											Security Guard
+										</a>
+									</li>
+									<li>
+										<a
+											href='/homepage-3.html'
+											className='text-decoration-none'>
+											Locksmith
+										</a>
+									</li>
+								</ul>
+							</li>
 						</ul>
 					</div>
 				</div>

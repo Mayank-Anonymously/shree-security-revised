@@ -5,27 +5,20 @@ const PreHeader = () => (
 			<div className='d-flex justify-content-between'>
 				<div className='pbmit-pre-header-left'>
 					<ul className='pbmit-contact-info'>
-						<li className='pbmit-news'>
-							<span>News</span>Alerting Today for a Better Tomorrow.
+						<li>
+							<i className='fa fa-envelope'></i>{' '}
+							<a
+								href='#'
+								className='text-decoration-none text-white'>
+								support@shreesecuritycamera.com
+							</a>
 						</li>
 						<li>
-							<i className='pbmit-base-icon-mail-alt'></i>{' '}
-							<a href='#'>[email&#160;protected]</a>
+							<i className='fa fa-map-marker'></i> A-146, Top Floor, Veer
+							Savarkar Block, Block S1, Shakarpur, Delhi, 110092, India
 						</li>
 						<li>
-							<i className='pbmit-base-icon-map-solid'></i> 250 Main Street, 2nd
-							Floor. USA
-						</li>
-						<li>
-							<i className='pbmit-base-icon-phone-call-solid'></i>{' '}
-							1-888-452-1505
-						</li>
-					</ul>
-				</div>
-				<div className='pbmit-pre-header-right'>
-					<ul className='pbmit-contact-info'>
-						<li>
-							<a href='contact-us.html'>get a quote</a>
+							<i className='fa fa-phone'></i> +91 9015704448
 						</li>
 					</ul>
 				</div>

@@ -3,33 +3,37 @@
 import dynamic from 'next/dynamic';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
+import { BsBank2 } from 'react-icons/bs';
+import { GiCctvCamera } from 'react-icons/gi';
+import { MdBroadcastOnHome } from 'react-icons/md';
+import { MdCorporateFare } from 'react-icons/md';
+import { BsFillBuildingsFill } from 'react-icons/bs';
 const Slider = dynamic(() => import('react-slick'), { ssr: false });
 
 const serviceItems = [
 	{
 		image: 'images/homepage-1/service/service-03.jpg',
-		icon: 'pbmit-protecta-icon-house',
+		icon: <MdBroadcastOnHome />,
 		title: 'Cyber Security Specialist',
 	},
 	{
 		image: 'images/homepage-1/service/service-04.jpg',
-		icon: 'pbmit-protecta-icon-cctv-camera',
+		icon: <GiCctvCamera />,
 		title: 'Institute CCTV Security',
 	},
 	{
 		image: 'images/homepage-1/service/service-05.jpg',
-		icon: 'pbmit-protecta-icon-surveillance-camera',
+		icon: <BsBank2 />,
 		title: 'Banking Sector Outside',
 	},
 	{
 		image: 'images/homepage-1/service/service-01.jpg',
-		icon: 'pbmit-protecta-icon-cctv-1',
+		icon: <MdCorporateFare />,
 		title: 'Private Sector Security',
 	},
 	{
 		image: 'images/homepage-1/service/service-02.jpg',
-		icon: 'pbmit-protecta-icon-surveillance',
+		icon: <BsFillBuildingsFill />,
 		title: 'Mall & Super Store Security',
 	},
 ];
@@ -91,10 +95,14 @@ const ServiceHome = () => {
 										<div className='pbminfotech-box-content'>
 											<div className='pbmit-box-content-inner'>
 												<div className='pbmit-service-icon-wrapper'>
-													<i className={`pbmit-protecta-icon ${item.icon}`}></i>
+													{item.icon}
 												</div>
 												<h3 className='pbmit-service-title'>
-													<a href='service-details.html'>{item.title}</a>
+													<a
+														href='service-details.html'
+														className='text-decoration-none'>
+														{item.title}
+													</a>
 												</h3>
 												<div className='pbmit-service-content'>
 													<p>
