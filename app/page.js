@@ -7,12 +7,10 @@ import Whychooseus from '@/components/common/Whychooseus';
 import NumberBanner from '@/components/common/NumberBanner';
 
 export default function Home() {
-
-
 	return (
 		<Screen>
 			<SliderComponent />
-			
+
 			<AboutUs />
 			<ServiceHome />
 			<NumberBanner />

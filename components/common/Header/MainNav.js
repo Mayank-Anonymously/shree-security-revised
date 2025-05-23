@@ -6,7 +6,7 @@ const MainNav = () => (
 				<a href='/'>
 					<img
 						className='logo-img'
-						src='/images/logo-white.svg'
+						src='/images/logo-white.png'
 						alt='Protecta'
 					/>
 				</a>

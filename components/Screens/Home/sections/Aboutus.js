@@ -11,14 +11,14 @@ const AboutUs = () => {
 								<img
 									src='images/homepage-1/about-demo1-bg.jpg'
 									class='img-fluid'
-									alt=''
+									alt='shape-one'
 								/>
 							</div>
 							<div class='about-one_img02'>
 								<img
 									src='images/homepage-1/cctv-ab-01.png'
 									class='img-fluid'
-									alt=''
+									alt='shape-two'
 								/>
 							</div>
 						</div>
@@ -29,8 +29,11 @@ const AboutUs = () => {
 								<h4 class='pbmit-subtitle'>About Us</h4>
 								<h2 class='pbmit-title'>Our Commitment is Keeping You Safe.</h2>
 								<div class='pbmit-heading-desc'>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit sed
-									do eiusmod tempor incididunt ut labore et dolore magna.
+									Our goal is to keep you safe. At Shree Security Camera, we
+									deliver smart, reliable camera and security solutions to
+									protect what matters most. From homes to businesses, our
+									cutting-edge systems offer 24/7 peace of mind, simple, secure,
+									and always watching.
 								</div>
 							</div>
 							<div class='about-one_ihbox'>
@@ -51,8 +54,8 @@ const AboutUs = () => {
 										<div class='about-one_btn'>
 											<a
 												class='pbmit-btn'
-												href='about-us.html'>
-												<span>More About</span>
+												href='/about-us'>
+												<span>More </span>
 											</a>
 										</div>
 									</div>

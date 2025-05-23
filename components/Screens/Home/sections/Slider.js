@@ -112,7 +112,7 @@ const SliderComponent = () => {
 											fontSize: '1rem',
 											cursor: 'pointer',
 										}}>
-										Contact Now 
+										Contact Now
 									</button>
 								</div>
 							</div>

@@ -9,9 +9,8 @@ const Header = () => {
 			<PreHeader />
 			<div className='site-header-menu pbmit-bg-color-global'>
 				<div className='container'>
-					<div className='pbmit-header-content d-flex align-items-center justify-content-between'>
+					<div className='pbmit-header-content d-flex align-items-center justify-content-around'>
 						<MainNav />
-						<SocialLinks />
 					</div>
 				</div>
 			</div>

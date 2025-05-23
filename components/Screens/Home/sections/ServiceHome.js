@@ -15,26 +15,36 @@ const serviceItems = [
 		image: 'images/homepage-1/service/service-03.jpg',
 		icon: <MdBroadcastOnHome />,
 		title: 'Cyber Security Specialist',
+		shortDesc:
+			'We safeguard your digital space with advanced threat detection, data protection, and proactive monitoring, so your systems stay secure, and your peace of mind stays intact.',
 	},
 	{
 		image: 'images/homepage-1/service/service-04.jpg',
 		icon: <GiCctvCamera />,
 		title: 'Institute CCTV Security',
+		shortDesc:
+			'We provide tailored CCTV solutions for schools, colleges, and institutions therefore, ensuring a safe, monitored environment that protects students, staff, and property around the clock.',
 	},
 	{
 		image: 'images/homepage-1/service/service-05.jpg',
 		icon: <BsBank2 />,
 		title: 'Banking Sector Outside',
+		shortDesc:
+			'Our robust outdoor CCTV systems for banks offer high-resolution surveillance, tamper-proof hardware, and 24/7 monitoring, securing ATMs, entrances, and perimeters against 	threats and unauthorized activity.',
 	},
 	{
 		image: 'images/homepage-1/service/service-01.jpg',
 		icon: <MdCorporateFare />,
 		title: 'Private Sector Security',
+		shortDesc:
+			'We deliver smart, scalable security solutions for the private sector, protecting offices, assets, and personnel with advanced surveillance technology tailored to your business needs.',
 	},
 	{
 		image: 'images/homepage-1/service/service-02.jpg',
 		icon: <BsFillBuildingsFill />,
 		title: 'Mall & Super Store Security',
+		shortDesc:
+			'Our CCTV systems for malls and superstores ensure wide-area coverage, real-time monitoring, and theft prevention which keeps customers safe and operations running smoothly.',
 	},
 ];
 
@@ -73,7 +83,7 @@ const ServiceHome = () => {
 					</div>
 					<a
 						className='pbmit-btn pbmit-btn-outline'
-						href='service-details.html'>
+						href='#'>
 						<span>Show All Service</span>
 					</a>
 				</div>
@@ -99,7 +109,7 @@ const ServiceHome = () => {
 												</div>
 												<h3 className='pbmit-service-title'>
 													<a
-														href='service-details.html'
+														href='#'
 														className='text-decoration-none'>
 														{item.title}
 													</a>
@@ -109,11 +119,6 @@ const ServiceHome = () => {
 														Sed do eiusmod tempor incididunt ut labore et dolore
 														magna aliqua enim ad minim veniam.
 													</p>
-												</div>
-												<div className='pbmit-service-btn'>
-													<a href='service-details.html'>
-														<span>Read More</span>
-													</a>
 												</div>
 											</div>
 										</div>
