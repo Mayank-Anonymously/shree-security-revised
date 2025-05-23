@@ -9,12 +9,11 @@ import NumberBanner from '@/components/common/NumberBanner';
 export default function Home() {
 	return (
 		<Screen>
+			
 			<SliderComponent />
-
 			<AboutUs />
 			<ServiceHome />
 			<NumberBanner />
-
 			<Whychooseus />
 			<Testimonials />
 		</Screen>
