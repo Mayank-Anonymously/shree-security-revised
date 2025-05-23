@@ -7,7 +7,7 @@ const ContactForm = () => {
 	const [email, setEmail] = useState('');
 	const [number, setNumber] = useState('');
 	const [message, setMessage] = useState('');
-	const [success, setSuccess] = useState(false);
+	const [success, setSuccess] = useState();
 
 	const sendQuery = (e) => {
 		e.preventDefault();
