@@ -187,6 +187,7 @@ const Footer = () => {
 					<div class='container'>
 						<div class='pbmit-footer-text-inner'>
 							<div class='row'>
+							
 								<div class='col-md-12'>
 									<div class='pbmit-footer-copyright-text-area'>
 										© Copyright 2025 The{' '}

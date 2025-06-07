@@ -11,7 +11,7 @@ const slides = [
 		title: 'CCTV Security Solutions',
 		subtitle: 'A New Freedom of Security',
 		description:
-			'Keep your loved ones safe with smart surveillance solutions which let you monitor your home in real-time from your phone or tablet.',
+			'Keep your loved ones safe with smart surveillance solutions that let you monitor your home in real-time from your phone or tablet.',
 		image: '/images/slider1-img1.jpg',
 		videoIcon: '/images/video-icon.png',
 	},

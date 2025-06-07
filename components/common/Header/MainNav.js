@@ -85,39 +85,27 @@ const MainNav = () => (
 									</li>
 								</ul>
 							</li>
-							{/* <li className='dropdown active'>
-								<a className='text-decoration-none'>Locations</a>
-								<ul>
-									<li>
-										<a
-											className='text-decoration-none'
-											href='/location/cctv-installation-in-delhi'>
-											CCTV Repair in Delhi
-										</a>
-									</li>
-									<li>
-										<a
-											className='text-decoration-none'
-											href='/location/cctv-installation-in-noida'>
-											CCTV Repair in Noida
-										</a>
-									</li>
-									<li>
-										<a
-											className='text-decoration-none'
-											href='/location/cctv-installation-in-gurgaon'>
-											CCTV Repair in Gurgaon
-										</a>
-									</li>
-									<li>
-										<a
-											className='text-decoration-none'
-											href='/location/cctv-installation-in-faridabad'>
-											CCTV Repair in Faridabad
-										</a>
-									</li>
-								</ul>
-							</li> */}
+							<li className='dropdown'>
+								<div
+									class='trustpilot-widget'
+									data-locale='en-US'
+									data-template-id='56278e9abfbbba0bdcd568bc'
+									data-businessunit-id='684421b7d7a3da69939e110b'
+									data-style-height='52px'
+									data-style-width='100%'
+									style={{
+										height: '52px',
+										width: '100%',
+										marginTop: '20px',
+									}}>
+									<a
+										href='https://www.trustpilot.com/review/shreesecuritycamera.com'
+										target='_blank'
+										rel='noopener'>
+										Trustpilot
+									</a>
+								</div>
+							</li>
 						</ul>
 					</div>
 				</div>
