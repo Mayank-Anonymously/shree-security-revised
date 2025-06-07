@@ -58,7 +58,6 @@ const Footer = () => {
 										</div>
 									</div>
 								</aside>
-
 							</div>
 							<div class='pbmit-footer-widget-col-2 col-md-6 col-lg-3'>
 								<div class='widget'>

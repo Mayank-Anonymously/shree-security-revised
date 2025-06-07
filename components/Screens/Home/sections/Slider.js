@@ -11,25 +11,26 @@ const slides = [
 		title: 'CCTV Security Solutions',
 		subtitle: 'A New Freedom of Security',
 		description:
-			'Discover various fun learning for your 5 to 12 year-old children with our programs and the master teachers.',
+			'Keep your loved ones safe with smart surveillance solutions which let you monitor your home in real-time from your phone or tablet.',
 		image: '/images/slider1-img1.jpg',
 		videoIcon: '/images/video-icon.png',
 	},
 	{
 		id: 2,
-		title: 'Professional Guard Services',
-		subtitle: 'Trained & Reliable',
+		title: 'Smart CCTV Monitoring Solutions',
+		subtitle: 'Real-Time Alerts & Remote Access',
 		description:
-			'Secure your premises with our expert team and advanced protocols.',
+			'Stay in control with our smart CCTV systems that offer 24/7 live monitoring, motion detection, and instant alerts — accessible from anywhere.',
 		image: '/images/slider1-img2.jpg',
-		videoIcon: '/images/video-icon.png',
+
+		videoIcon: '/images/monitoring-video-icon.png',
 	},
 	{
 		id: 3,
 		title: '24/7 Monitoring',
 		subtitle: 'Peace of Mind',
 		description: 'Always watching, always ready to act.',
-		image: '/images/slider1-img1.jpg',
+		image: '/images/slider1-img3.jpg',
 		videoIcon: '/images/video-icon.png',
 	},
 ];
