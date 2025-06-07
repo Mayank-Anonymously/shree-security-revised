@@ -59,7 +59,70 @@ const Footer = () => {
 									</div>
 								</aside>
 
-								<aside class='widget'>
+							</div>
+							<div class='pbmit-footer-widget-col-2 col-md-6 col-lg-3'>
+								<div class='widget'>
+									<h2 class='widget-title'>Services</h2>
+									<div class='textwidget'>
+										<ul>
+											<li>
+												<a
+													className='text-decoration-none text-black'
+													href='/service/cctv-installation'>
+													CCTV Camera Installation
+												</a>
+											</li>
+											<li>
+												<a
+													className='text-decoration-none text-black'
+													href='/service/electronic-door-lock'>
+													Electronic Door Lock
+												</a>
+											</li>
+											<li>
+												<a
+													className='text-decoration-none text-black'
+													href='/service/biometric-machine'>
+													Biometric &amp; Access Control System
+												</a>
+											</li>
+											<li>
+												<a
+													className='text-decoration-none text-black'
+													href='/service/video-door-phone'>
+													Video Door Phone
+												</a>
+											</li>
+											<li>
+												<a
+													className='text-decoration-none text-black'
+													href='/service/security-alarm-panel'>
+													Security Alarm &amp; Fire Alarm
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<div class='pbmit-footer-widget-col-3 col-md-6 col-lg-3'>
+								<div class='widget'>
+									<h2 class='widget-title'>Our pages</h2>
+									<ul>
+										<li>
+											<a href='about-us.html'>About</a>
+										</li>
+										<li>
+											<a href='single-detail-style-1.html'>Contact us</a>
+										</li>
+										<li>
+											<a href='blog-classic.html'>Latest Blog</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class='pbmit-footer-widget-col-3 col-md-6 col-lg-3'>
+								<div class='widget'>
 									<h2 class='widget-title'>Opening Hours</h2>
 									<ul class='pbmit-timelist-list'>
 										<li>
@@ -78,146 +141,45 @@ const Footer = () => {
 											<span>* Close on public holidays</span>
 										</li>
 									</ul>
-								</aside>
-								<aside>
-									<ul class='pbmit-social-links'>
-										<li class='pbmit-social-li pbmit-social-facebook'>
-											<a
-												href='https://www.facebook.com/'
-												target='_blank'>
-												<span>
-													<i class='pbmit-base-icon-facebook-f'></i>
-												</span>
-											</a>
-										</li>
-										<li class='pbmit-social-li pbmit-social-twitter'>
-											<a
-												href='https://www.twitter.com/'
-												target='_blank'>
-												<span>
-													<i class='pbmit-base-icon-twitter-1'></i>
-												</span>
-											</a>
-										</li>
-										<li class='pbmit-social-li pbmit-social-instagram'>
-											<a
-												href='https://www.instagram.com/'
-												target='_blank'>
-												<span>
-													<i class='pbmit-base-icon-instagram'></i>
-												</span>
-											</a>
-										</li>
-										<li class='pbmit-social-li pbmit-social-youtube'>
-											<a
-												href='https://www.youtube.com/'
-												target='_blank'>
-												<span>
-													<i class='pbmit-base-icon-youtube-play'></i>
-												</span>
-											</a>
-										</li>
-									</ul>
-								</aside>
-							</div>
-							<div class='pbmit-footer-widget-col-2 col-md-6 col-lg-3'>
-								<div class='widget'>
-									<h2 class='widget-title'>Services</h2>
-									<div class='textwidget'>
-										<ul>
-											<li>
-												<a href='service-details.html'>
-													Cyber Security Specialist
-												</a>
-											</li>
-											<li>
-												<a href='service-details.html'>
-													Institute CCTV Security
-												</a>
-											</li>
-											<li>
-												<a href='service-details.html'>
-													Banking Sector Outside
-												</a>
-											</li>
-											<li>
-												<a href='service-details.html'>
-													Private Sector Security
-												</a>
-											</li>
-											<li>
-												<a href='service-details.html'>
-													School & Hospital Security
-												</a>
-											</li>
-											<li>
-												<a href='service-details.html'>
-													Office & Industrial Security
-												</a>
-											</li>
-										</ul>
-									</div>
 								</div>
-							</div>
-							<div class='pbmit-footer-widget-col-2 col-md-6 col-lg-3'>
-								<div class='widget'>
-									<h2 class='widget-title'>Services</h2>
-									<div class='textwidget'>
-										<ul>
-											<li>
-												<a href='service-details.html'>
-													Cyber Security Specialist
-												</a>
-											</li>
-											<li>
-												<a href='service-details.html'>
-													Institute CCTV Security
-												</a>
-											</li>
-											<li>
-												<a href='service-details.html'>
-													Banking Sector Outside
-												</a>
-											</li>
-											<li>
-												<a href='service-details.html'>
-													Private Sector Security
-												</a>
-											</li>
-											<li>
-												<a href='service-details.html'>
-													School & Hospital Security
-												</a>
-											</li>
-											<li>
-												<a href='service-details.html'>
-													Office & Industrial Security
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class='pbmit-footer-widget-col-3 col-md-6 col-lg-3'>
-								<div class='widget'>
-									<h2 class='widget-title'>main Page</h2>
-									<ul>
-										<li>
-											<a href='about-us.html'>About</a>
-										</li>
-										<li>
-											<a href='single-detail-style-1.html'>
-												Our latest Projects
-											</a>
-										</li>
-										<li>
-											<a href='blog-classic.html'>Latest Blog</a>
-										</li>
-										<li>
-											<a href='contact-us.html'>Contact Us</a>
-										</li>
-									</ul>
-								</div>
+								<ul class='pbmit-social-links'>
+									<li class='pbmit-social-li pbmit-social-facebook'>
+										<a
+											href='https://www.facebook.com/'
+											target='_blank'>
+											<span>
+												<i class='pbmit-base-icon-facebook-f'></i>
+											</span>
+										</a>
+									</li>
+									<li class='pbmit-social-li pbmit-social-twitter'>
+										<a
+											href='https://www.twitter.com/'
+											target='_blank'>
+											<span>
+												<i class='pbmit-base-icon-twitter-1'></i>
+											</span>
+										</a>
+									</li>
+									<li class='pbmit-social-li pbmit-social-instagram'>
+										<a
+											href='https://www.instagram.com/'
+											target='_blank'>
+											<span>
+												<i class='pbmit-base-icon-instagram'></i>
+											</span>
+										</a>
+									</li>
+									<li class='pbmit-social-li pbmit-social-youtube'>
+										<a
+											href='https://www.youtube.com/'
+											target='_blank'>
+											<span>
+												<i class='pbmit-base-icon-youtube-play'></i>
+											</span>
+										</a>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>

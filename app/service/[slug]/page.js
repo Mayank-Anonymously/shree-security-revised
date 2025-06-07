@@ -1,6 +1,35 @@
 import Screen from '@/components/common/Screen';
 import React from 'react';
-const page = () => {
+import JsonFile from '../../../utils/servicesJson/file.json';
+
+export async function generateMetadata({ params }) {
+	const service = JsonFile.find((item) => item.slug === params.slug);
+	if (!service) return {};
+
+	return {
+		title: `${service.title} | Your Company Name`,
+		description: `Learn more about our ${service.title} service offering top-class security solutions.`,
+		alternates: {
+			canonical: `https://www.yourdomain.com/services/${service.slug}`,
+		},
+		openGraph: {
+			title: service.title,
+			description: `Explore the details of our ${service.title} services.`,
+			images: [service.image],
+			url: `https://www.yourdomain.com/services/${service.slug}`,
+		},
+	};
+}
+
+export const getData = async (slug) => {
+	const data = JsonFile.find((item) => item.slug === slug);
+	console.log(JsonFile);
+	return data;
+};
+const page = async ({ params }) => {
+	const { slug } = params;
+	const servicefetch = await getData(slug);
+	console.log(servicefetch);
 	return (
 		<Screen>
 			<div className='page-content'>
@@ -101,7 +130,7 @@ const page = () => {
 													We are No.1 Security <br /> System Company
 												</p>
 												<h4 class='pbmit-ads-title'>Call Us</h4>
-												<h4 class='pbmit-ads-contact'>(866) 785-0994</h4>
+												<h4 class='pbmit-ads-contact'>+91 9015704448</h4>
 												<p class='pbmit-ads-des'>
 													Same-Day Appointments Available
 												</p>
@@ -120,32 +149,13 @@ const page = () => {
 								</div>
 								<div class='pbmit-entry-content'>
 									<div class='pbmit-service_content'>
-										<h3 class='mb-3'>Mall & Super Store Security</h3>
-										<p>
-											<span class='drop-cap'>
-												<span class='drop-cap-letter'>M</span>
-											</span>
-											tiam ultricies nisi vel augue. Curabitur ullamcorper
-											ultricies nisi. Nam eget dui elit adipiscing. Eam
-											rhoncust. Maecenas tempus, tellus eget condimentum
-											rhoncus, sem quam semper libero sit ametnt Tiam ultricies
-											nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam
-											eget dui elit adipiscing. Etiam rhoncus. Maecenas tempus,
-											tellus eget condimentum rhoncus, sem quam semper libero,
-											sit amet tempus adipiscing sem Lorem ipsum dolor sit amet,
-											adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-											massa. Cum sociis vel Theme natoque penatibus et magnis
-											dis parturient montes.
-										</p>
-										<p>
-											CCTV camera which suit ideal for outdoor surveillance
-											different situations or premises, a and that selecting the
-											proper camera for the right application really is vital.
-											Here, we run through these type of camera and what makes
-											them unique and more suitable for some venues over others.
-										</p>
+										<h3 class='mb-3'>{servicefetch.title}</h3>
 									</div>
-									<div class='row'>
+									<div
+										dangerouslySetInnerHTML={{ __html: servicefetch.content }}
+										className='service'
+									/>
+									{/* <div class='row'>
 										<div class='col-md-6'>
 											<div class='pbmit-animation-style1'>
 												<div class='pbmit-service-img01'>
@@ -421,7 +431,7 @@ const page = () => {
 												</div>
 											</div>
 										</div>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>

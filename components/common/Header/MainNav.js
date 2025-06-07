@@ -28,31 +28,8 @@ const MainNav = () => (
 					<div className='pbmit-menu-wrap'>
 						<span className='closepanel'>×</span>
 						<ul className='navigation clearfix'>
-							<li className='dropdown active'>
-								<a
-									href='/index-2.html'
-									className='text-decoration-none'>
-									Home
-								</a>
-								<ul>
-									<li className='active'>
-										<a href='/index-2.html'>CCTV Security</a>
-									</li>
-									<li>
-										<a
-											href='/homepage-2.html'
-											className='text-decoration-none'>
-											Security Guard
-										</a>
-									</li>
-									<li>
-										<a
-											href='/homepage-3.html'
-											className='text-decoration-none'>
-											Locksmith
-										</a>
-									</li>
-								</ul>
+							<li className=''>
+								<a className='text-decoration-none'>Home</a>
 							</li>
 							<li className=''>
 								<a
@@ -69,65 +46,78 @@ const MainNav = () => (
 								</a>
 							</li>
 							<li className='dropdown active'>
-								<a
-									href='/index-2.html'
-									className='text-decoration-none'>
-									Services
-								</a>
+								<a className='text-decoration-none'>Services</a>
 								<ul>
-									<li className='active'>
+									<li>
 										<a
-											href='/index-2.html'
-											className='text-decoration-none'>
-											CCTV Security
+											className='text-decoration-none'
+											href='/service/cctv-installation'>
+											CCTV Camera Installation
 										</a>
 									</li>
 									<li>
 										<a
-											href='/homepage-2.html'
-											className='text-decoration-none'>
-											Security Guard
+											className='text-decoration-none'
+											href='/service/electronic-door-lock'>
+											Electronic Door Lock
 										</a>
 									</li>
 									<li>
 										<a
-											href='/homepage-3.html'
-											className='text-decoration-none'>
-											Locksmith
+											className='text-decoration-none'
+											href='/service/biometric-machine'>
+											Biometric &amp; Access Control System
+										</a>
+									</li>
+									<li>
+										<a
+											className='text-decoration-none'
+											href='/service/video-door-phone'>
+											Video Door Phone
+										</a>
+									</li>
+									<li>
+										<a
+											className='text-decoration-none'
+											href='/service/security-alarm-panel'>
+											Security Alarm &amp; Fire Alarm
 										</a>
 									</li>
 								</ul>
 							</li>
-							<li className='dropdown active'>
-								<a
-									href='/index-2.html'
-									className='text-decoration-none'>
-									Locations
-								</a>
+							{/* <li className='dropdown active'>
+								<a className='text-decoration-none'>Locations</a>
 								<ul>
-									<li className='active'>
+									<li>
 										<a
-											href='/index-2.html'
-											className='text-decoration-none'>
-											CCTV Security
+											className='text-decoration-none'
+											href='/location/cctv-installation-in-delhi'>
+											CCTV Repair in Delhi
 										</a>
 									</li>
 									<li>
 										<a
-											href='/homepage-2.html'
-											className='text-decoration-none'>
-											Security Guard
+											className='text-decoration-none'
+											href='/location/cctv-installation-in-noida'>
+											CCTV Repair in Noida
 										</a>
 									</li>
 									<li>
 										<a
-											href='/homepage-3.html'
-											className='text-decoration-none'>
-											Locksmith
+											className='text-decoration-none'
+											href='/location/cctv-installation-in-gurgaon'>
+											CCTV Repair in Gurgaon
+										</a>
+									</li>
+									<li>
+										<a
+											className='text-decoration-none'
+											href='/location/cctv-installation-in-faridabad'>
+											CCTV Repair in Faridabad
 										</a>
 									</li>
 								</ul>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 				</div>
