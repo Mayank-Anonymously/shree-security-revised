@@ -91,8 +91,6 @@ const MainNav = () => (
 									data-locale='en-US'
 									data-template-id='56278e9abfbbba0bdcd568bc'
 									data-businessunit-id='684421b7d7a3da69939e110b'
-									data-style-height='52px'
-									data-style-width='100%'
 									style={{
 										height: '52px',
 										width: '100%',
