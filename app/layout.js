@@ -27,6 +27,16 @@ export default function RootLayout({ children }) {
 				type='text/javascript'
 				src='//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js'
 				async></script>
+			<script
+				async
+				src='https://www.googletagmanager.com/gtag/js?id=AW-16712967012'></script>
+			<script>
+				{`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+                    
+            gtag('config', 'AW-16712967012');`}
+			</script>
 			<body className={`${geistSans.variable} ${geistMono.variable}`}>
 				{children}
 			</body>
