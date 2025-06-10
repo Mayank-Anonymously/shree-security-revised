@@ -37,6 +37,22 @@ export default function RootLayout({ children }) {
                     
             gtag('config', 'AW-16712967012');`}
 			</script>
+
+			<script>
+				{`function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16712967012/57KYCMvIztcZEOTGrqE-',
+      'event_callback': callback
+  });
+  return false;
+`}
+			</script>
+
 			<body className={`${geistSans.variable} ${geistMono.variable}`}>
 				{children}
 			</body>
