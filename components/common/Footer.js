@@ -109,13 +109,13 @@ const Footer = () => {
 									<h2 class='widget-title'>Our pages</h2>
 									<ul>
 										<li>
-											<a href='about-us.html'>About</a>
+											<a href='about-us'>About</a>
 										</li>
 										<li>
-											<a href='single-detail-style-1.html'>Contact us</a>
+											<a href='contact-us'>Contact us</a>
 										</li>
 										<li>
-											<a href='blog-classic.html'>Latest Blog</a>
+											<a href='/'>Latest Blog</a>
 										</li>
 									</ul>
 								</div>
