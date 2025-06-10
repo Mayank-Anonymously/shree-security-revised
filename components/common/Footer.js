@@ -50,7 +50,7 @@ const Footer = () => {
 										</div>
 										<div class='pbmit-contact-widget-line pbmit-contact-widget-email'>
 											<a
-												href='https://protecta-demo.pbminfotech.com/cdn-cgi/l/email-protection'
+												href='/'
 												class='__cf_email__'
 												data-cfemail='204e4f0d5245504c596050424d494e464f544543480e434f4d'>
 												support@shreesecuritycamera.com
@@ -187,12 +187,10 @@ const Footer = () => {
 					<div class='container'>
 						<div class='pbmit-footer-text-inner'>
 							<div class='row'>
-							
 								<div class='col-md-12'>
 									<div class='pbmit-footer-copyright-text-area'>
-										© Copyright 2025 The{' '}
-										<a href='index-2.html'>Shree Security Camera</a> All Rights
-										Reserved.
+										© Copyright 2025 The <a href='/'>Shree Security Camera</a>{' '}
+										All Rights Reserved.
 									</div>
 								</div>
 							</div>
