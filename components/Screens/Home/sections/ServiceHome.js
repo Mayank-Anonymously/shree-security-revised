@@ -115,10 +115,7 @@ const ServiceHome = () => {
 													</a>
 												</h3>
 												<div className='pbmit-service-content'>
-													<p>
-														Sed do eiusmod tempor incididunt ut labore et dolore
-														magna aliqua enim ad minim veniam.
-													</p>
+													<p>{item.shortDesc}</p>
 												</div>
 											</div>
 										</div>
