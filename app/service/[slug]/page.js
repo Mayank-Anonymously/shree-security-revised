@@ -23,13 +23,11 @@ export async function generateMetadata({ params }) {
 
 export const getData = async (slug) => {
 	const data = JsonFile.find((item) => item.slug === slug);
-	console.log(JsonFile);
 	return data;
 };
 const page = async ({ params }) => {
 	const { slug } = params;
 	const servicefetch = await getData(slug);
-	console.log(servicefetch);
 	return (
 		<Screen>
 			<div className='page-content'>

@@ -1,17 +1,17 @@
 # robots.txt for Next.js website
-# Allow full indexing by all user agents except internal/private paths
-
 User-agent: *
 Allow: /
 
-# Disallow internal Next.js build files and api routes that do not serve content
+# Disallow internal Next.js paths and APIs
 Disallow: /_next/
 Disallow: /api/
-Disallow: /static/
 
-# Optional: disallow error pages to avoid indexing them (404, 500)
+# Optional: Disallow static files only if they don't contain public assets
+# Disallow: /static/
+
+# Optional: Prevent error pages from being indexed
 Disallow: /404
 Disallow: /500
 
-# Sitemap helps search engines find your pages efficiently
+# Sitemap URL
 Sitemap: https://www.shreesecuritycamera.com/sitemap.xml
