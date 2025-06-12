@@ -7,7 +7,7 @@ export async function generateMetadata({ params }) {
 	if (!service) return {};
 
 	return {
-		title: `${service.title} | Your Company Name`,
+		title: `${service.title} | Shree Security Camera`,
 		description: `Learn more about our ${service.title} service offering top-class security solutions.`,
 		alternates: {
 			canonical: `https://www.yourdomain.com/services/${service.slug}`,
