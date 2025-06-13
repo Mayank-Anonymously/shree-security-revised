@@ -5,6 +5,7 @@ Allow: /
 # Disallow internal Next.js paths and APIs
 Disallow: /_next/
 Disallow: /api/
+Disallow: /zdjqck4/
 
 # Optional: Disallow static files only if they don't contain public assets
 # Disallow: /static/
