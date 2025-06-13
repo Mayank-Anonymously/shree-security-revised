@@ -41,74 +41,65 @@ const page = async ({ params }) => {
 											<ul>
 												<li class='post-active'>
 													<a
-														href='service-details.html'
+														href='#'
 														className='text-decoration-none'>
-														{' '}
-														Cyber Security Specialist{' '}
+														Cyber Security Specialist
 													</a>
 												</li>
 												<li>
 													<a
-														href='service-details.html'
+														href='#'
 														className='text-decoration-none'>
-														{' '}
-														Institute CCTV Security{' '}
+														Institute CCTV Security
 													</a>
 												</li>
 												<li>
 													<a
-														href='service-details.html'
+														href='#'
 														className='text-decoration-none'>
-														{' '}
-														Banking Sector Outside{' '}
+														Banking Sector Outside
 													</a>
 												</li>
 												<li>
 													<a
-														href='service-details.html'
+														href='#'
 														className='text-decoration-none'>
-														{' '}
-														Private Sector Security{' '}
+														Private Sector Security
 													</a>
 												</li>
 												<li>
 													<a
-														href='service-details.html'
+														href='#'
 														className='text-decoration-none'>
-														{' '}
-														Mall & Super Store Security{' '}
+														Mall & Super Store Security
 													</a>
 												</li>
 												<li>
 													<a
-														href='service-details.html'
+														href='#'
 														className='text-decoration-none'>
-														{' '}
-														24/7 Shield Security{' '}
+														24/7 Shield Security
 													</a>
 												</li>
 												<li>
 													<a
-														href='service-details.html'
+														href='#'
 														className='text-decoration-none'>
-														{' '}
-														School & Hospital Security{' '}
+														School & Hospital Security
 													</a>
 												</li>
 												<li>
 													<a
-														href='service-details.html'
+														href='#'
 														className='text-decoration-none'>
-														{' '}
-														Office & Industrial Security{' '}
+														Office & Industrial Security
 													</a>
 												</li>
 												<li>
 													<a
-														href='service-details.html'
+														href='#'
 														className='text-decoration-none'>
-														{' '}
-														Commercial CCTV System{' '}
+														Commercial CCTV System
 													</a>
 												</li>
 											</ul>
@@ -173,7 +164,7 @@ const page = async ({ params }) => {
 																class='fa fa-check'></i>
 														</span>
 														<span class='pbmit-icon-list-text'>
-															{' '}
+															
 															Praesent efficitur quam sit amet
 														</span>
 													</li>
@@ -194,7 +185,7 @@ const page = async ({ params }) => {
 																class='fa fa-check'></i>
 														</span>
 														<span class='pbmit-icon-list-text'>
-															{' '}
+															
 															Quisque tincidunt eros ac place viverra
 														</span>
 													</li>
@@ -205,7 +196,7 @@ const page = async ({ params }) => {
 																class='fa fa-check'></i>
 														</span>
 														<span class='pbmit-icon-list-text'>
-															{' '}
+															
 															Quisque tincidunt eros ac place viverra
 														</span>
 													</li>
@@ -241,7 +232,7 @@ const page = async ({ params }) => {
 																class='fa fa-check'></i>
 														</span>
 														<span class='pbmit-icon-list-text'>
-															{' '}
+															
 															Various versions have evolved over.
 														</span>
 													</li>
