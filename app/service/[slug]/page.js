@@ -10,13 +10,13 @@ export async function generateMetadata({ params }) {
 		title: `${service.title} | Shree Security Camera`,
 		description: `Learn more about our ${service.title} service offering top-class security solutions.`,
 		alternates: {
-			canonical: `https://www.yourdomain.com/services/${service.slug}`,
+			canonical: `https://www.shreesecuritycamera.com/services/${service.slug}`,
 		},
 		openGraph: {
 			title: service.title,
 			description: `Explore the details of our ${service.title} services.`,
 			images: [service.image],
-			url: `https://www.yourdomain.com/services/${service.slug}`,
+			url: `https://www.shreesecuritycamera.com/services/${service.slug}`,
 		},
 	};
 }

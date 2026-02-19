@@ -14,7 +14,9 @@ const NumberBanner = () => {
 									<div class='pbmit-ihbox-headingicon'>
 										<div class='pbmit-ihbox-contents'>
 											<h4 class='pbmit-heading'>Let’s Work Together</h4>
-											<h2 class='pbmit-title'>+91 9015704448</h2>
+											<h2 class='pbmit-title'>
+												<a href='tel:+91 9015704448'>+91 9015704448</a>
+											</h2>
 											<div class='pbmit-heading-desc'>
 												What are you waiting for to register and start
 												<br /> this new adventure?
