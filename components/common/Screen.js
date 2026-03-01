@@ -8,6 +8,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import QueryModal from '@/components/common/QueryModal';
 import { useEffect, useState } from 'react';
+import FloatingContactButtons from './FloatingContactButtons';
 
 const Screen = ({ children }) => {
 	const [show, setShow] = useState(false);
@@ -25,6 +26,7 @@ const Screen = ({ children }) => {
 				handleClose={() => setShow(false)}
 			/>
 			{children}
+			<FloatingContactButtons />
 			<Footer />
 		</div>
 	);
