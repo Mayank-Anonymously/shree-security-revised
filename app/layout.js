@@ -30,6 +30,16 @@ export default function RootLayout({ children }) {
 			<script
 				async
 				src='https://www.googletagmanager.com/gtag/js?id=AW-16712967012'></script>
+			<script
+				async
+				src='https://www.googletagmanager.com/gtag/js?id=G-23SSMCFYMS'></script>
+			<script>
+				{`window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);} 
+				gtag('js', new Date());
+
+				gtag('config', 'G-23SSMCFYMS');`}
+			</script>
 			<script>
 				{`window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
