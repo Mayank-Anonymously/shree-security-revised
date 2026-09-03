@@ -1,4 +1,4 @@
-import Screen from '@/components/common/Screen';
+import Screen from '../../../components/common/Screen';
 import React from 'react';
 import JsonFile from '../../../utils/servicesJson/file.json';
 

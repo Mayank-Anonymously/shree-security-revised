@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { HOST } from '@/utils/static';
+import { HOST } from '../../../../utils/static';
 
 const ContactForm = () => {
 	const [name, setName] = useState('');
@@ -23,14 +23,14 @@ const ContactForm = () => {
 			}),
 		};
 
-		fetch(`${HOST}query/send-mail/query-by-customer`, options)
+		fetch('/api/query', options)
 			.then((response) => response.json())
 			.then((response) => {
 				if (response?.baseResponse?.status === 1) {
 					setSuccess(true);
 					window.open(
 						`https://wa.me/+919015704448?text=${encodeURIComponent(message)}!`,
-						'__blank'
+						'__blank',
 					);
 				} else {
 					setSuccess(false);
