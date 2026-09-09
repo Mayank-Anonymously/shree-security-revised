@@ -21,10 +21,10 @@ const Screen = ({ children }) => {
 	return (
 		<div className='page-wrapper'>
 			<Header />
-			<QueryModal
+			{/* <QueryModal
 				show={show}
 				handleClose={() => setShow(false)}
-			/>
+			/> */}
 			{children}
 			<FloatingContactButtons />
 			<Footer />
