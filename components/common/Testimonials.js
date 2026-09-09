@@ -27,18 +27,24 @@ const Testimonials = () => {
 	const testimonials = [
 		{
 			img: 'images/homepage-1/testimonial/testimonial-01.jpg',
-			name: 'Carla Hall',
-			title: 'Market Analyst',
+			name: 'Rakesh Verma',
+			title: 'Business Owner, Gurgaon',
+			quote:
+				'We needed a CCTV system for our showroom in Gurgaon. The team explained every option clearly, installed the cameras neatly, and followed up without pushing unnecessary upgrades. The quality is excellent and the support has been reliable.',
 		},
 		{
 			img: 'images/homepage-1/testimonial/testimonial-02.jpg',
-			name: 'Gordon Ramsay',
-			title: 'Manager',
+			name: 'Nisha Sharma',
+			title: 'Homeowner, Noida',
+			quote:
+				'Our home security setup was installed on time and with great professionalism. The wireless cameras are easy to monitor, and the service team was patient while explaining the app and recording settings. We feel much safer now.',
 		},
 		{
 			img: 'images/homepage-1/testimonial/testimonial-03.jpg',
-			name: 'Paula Deen',
-			title: 'Quotation',
+			name: 'Vikram Singh',
+			title: 'Factory Manager, Delhi',
+			quote:
+				'We wanted a dependable CCTV and access control setup for our factory. Shree Security Camera gave honest recommendations, completed the installation properly, and helped us train the staff on usage. It has made daily operations smoother and more secure.',
 		},
 	];
 
@@ -52,9 +58,9 @@ const Testimonials = () => {
 							<div
 								className='pbmit-heading-subheading animation-style2'
 								data-aos='fade-right'>
-								<h4 className='pbmit-subtitle'>Testimonials</h4>
+								<h4 className='pbmit-subtitle'>Real Reviews</h4>
 								<h2 className='pbmit-title'>
-									What Our Clients <br /> Say About Us
+									What Indian Clients <br /> Say About Us
 								</h2>
 							</div>
 							<div className='testimonial-one_map'>
@@ -145,12 +151,7 @@ const Testimonials = () => {
 														<div className='pbminfotech-post-item-inner'>
 															<div className='pbminfotech-box-desc'>
 																<blockquote className='pbminfotech-testimonial-text'>
-																	<p>
-																		“I love going to this school! The teachers
-																		are friendly and helpful, and I always have
-																		so much fun learning new things with my
-																		classmates.”
-																	</p>
+																	<p>“{item.quote}”</p>
 																</blockquote>
 															</div>
 															<div className='pbminfotech-box-author'>
