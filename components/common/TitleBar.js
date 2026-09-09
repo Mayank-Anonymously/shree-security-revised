@@ -2,28 +2,25 @@ import React from 'react';
 
 const TitleBar = ({ link, page }) => {
 	return (
-		<div class='pbmit-title-bar-wrapper'>
-			<div class='container'>
-				<div class='pbmit-title-bar-content'>
-					<div class='pbmit-title-bar-content-inner container'>
-						<div class='pbmit-tbar'>
-							<div class='pbmit-tbar-inner'>
-								<h1 class='pbmit-tbar-title'>{page}</h1>
+		<div className='pbmit-title-bar-wrapper'>
+			<div className='container'>
+				<div className='pbmit-title-bar-content'>
+					<div className='pbmit-title-bar-content-inner container'>
+						<div className='pbmit-tbar'>
+							<div className='pbmit-tbar-inner'>
+								<h1 className='pbmit-tbar-title'>{page}</h1>
 							</div>
 						</div>
-						<div class='pbmit-breadcrumb'>
-							<div class='pbmit-breadcrumb-inner'>
+						<div className='pbmit-breadcrumb'>
+							<div className='pbmit-breadcrumb-inner'>
 								<span>
-									<a
-										title=''
-										href='#'
-										class='home'>
+									<a title='' href='#' className='home'>
 										<span>{link}</span>
 									</a>
-								</span>{' '}
-								/{' '}
+								</span>
+								{' / '}
 								<span>
-									<span class='post-root post post-post current-item'>
+									<span className='post-root post post-post current-item'>
 										{page}
 									</span>
 								</span>

@@ -29,13 +29,10 @@ const MainNav = () => (
 						<span className='closepanel'>×</span>
 						<ul className='navigation clearfix'>
 							<li className=''>
-								<a className='text-decoration-none'>Home</a>
-							</li>
-							<li className=''>
 								<a
-									href='/contact-us'
+									href='/'
 									className='text-decoration-none'>
-									Contact Us
+									Home
 								</a>
 							</li>
 							<li className=''>
@@ -46,63 +43,83 @@ const MainNav = () => (
 								</a>
 							</li>
 							<li className='dropdown active'>
-								<a className='text-decoration-none'>Services</a>
+								<a
+									href='/services'
+									className='text-decoration-none'>
+									Services
+								</a>
 								<ul>
 									<li>
 										<a
 											className='text-decoration-none'
-											href='/service/cctv-installation'>
+											href='/services/cctv-installation'>
 											CCTV Camera Installation
 										</a>
 									</li>
 									<li>
 										<a
 											className='text-decoration-none'
-											href='/service/electronic-door-lock'>
+											href='/services/electronic-door-lock'>
 											Electronic Door Lock
 										</a>
 									</li>
 									<li>
 										<a
 											className='text-decoration-none'
-											href='/service/biometric-machine'>
+											href='/services/biometric-machine'>
 											Biometric &amp; Access Control System
 										</a>
 									</li>
 									<li>
 										<a
 											className='text-decoration-none'
-											href='/service/video-door-phone'>
+											href='/services/video-door-phone'>
 											Video Door Phone
 										</a>
 									</li>
 									<li>
 										<a
 											className='text-decoration-none'
-											href='/service/security-alarm-panel'>
+											href='/services/security-alarm-panel'>
 											Security Alarm &amp; Fire Alarm
 										</a>
 									</li>
 								</ul>
 							</li>
-							<li className='dropdown'>
-								<div
-									class='trustpilot-widget'
-									data-locale='en-US'
-									data-template-id='56278e9abfbbba0bdcd568bc'
-									data-businessunit-id='684421b7d7a3da69939e110b'
-									style={{
-										height: '52px',
-										width: '100%',
-										marginTop: '20px',
-									}}>
-									<a
-										href='https://www.trustpilot.com/review/shreesecuritycamera.com'
-										target='_blank'
-										rel='noopener'>
-										Trustpilot
-									</a>
-								</div>
+							<li className=''>
+								<a
+									href='/services/delhi'
+									className='text-decoration-none'>
+									Delhi Security Cameras
+								</a>
+							</li>
+							<li className=''>
+								<a
+									href='/services/noida'
+									className='text-decoration-none'>
+									Noida Security Cameras
+								</a>
+							</li>
+							<li className=''>
+								<a
+									href='/services/gurgaon'
+									className='text-decoration-none'>
+									Gurgaon Security Cameras
+								</a>
+							</li>
+							<li className=''>
+								<a
+									href='/services/faridabad'
+									className='text-decoration-none'>
+									Faridabad Security Cameras
+								</a>
+							</li>
+							<li className=''>
+								<a
+									href='/contact-us'
+									className='text-decoration-none'>
+									Contact Us
+								</a>
 							</li>
 						</ul>
 					</div>

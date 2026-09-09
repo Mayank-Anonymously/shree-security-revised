@@ -12,17 +12,37 @@ const FloatingContactButtons = () => {
 		<div className='floating-contact-container'>
 			<a
 				href={whatsappUrl}
-				target='_blank'
-				rel='noopener noreferrer'
 				className='floating-btn whatsapp-btn'
-				aria-label='Chat on WhatsApp'>
+				aria-label='Chat on WhatsApp'
+				onClick={(e) => {
+					e.preventDefault();
+					if (typeof window !== 'undefined' && window.gtag) {
+						window.gtag('event', 'conversion', {
+							send_to: 'AW-16712967012/57KYCMvIztcZEOTGrqE-',
+						});
+					}
+					window.open(whatsappUrl, '_blank');
+				}}>
 				<FaWhatsapp size={24} />
 				<span className='pulse'></span>
 			</a>
 			<a
 				href={callUrl}
 				className='floating-btn call-btn'
-				aria-label='Call Us'>
+				aria-label='Call Us'
+				onClick={(e) => {
+					e.preventDefault();
+					if (typeof window !== 'undefined' && window.gtag) {
+						window.gtag('event', 'conversion', {
+							send_to: 'AW-16712967012/57KYCMvIztcZEOTGrqE-',
+							event_callback: function () {
+								window.location = callUrl;
+							},
+						});
+					} else {
+						window.location = callUrl;
+					}
+				}}>
 				<FaPhoneAlt size={20} />
 				<span className='pulse'></span>
 			</a>

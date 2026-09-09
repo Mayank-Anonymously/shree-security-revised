@@ -14,37 +14,42 @@ const serviceItems = [
 	{
 		image: 'images/homepage-1/service/service-03.jpg',
 		icon: <MdBroadcastOnHome />,
-		title: 'Cyber Security Specialist',
+		title: 'CCTV Camera Installation',
 		shortDesc:
-			'We safeguard your digital space with advanced threat detection, data protection, and proactive monitoring, so your systems stay secure, and your peace of mind stays intact.',
+			'Professional CCTV installation for homes, offices, shops, schools, and commercial properties across Noida, Gurgaon, and Faridabad.',
+		link: '/services/cctv-installation',
 	},
 	{
 		image: 'images/homepage-1/service/service-04.jpg',
 		icon: <GiCctvCamera />,
-		title: 'Institute CCTV Security',
+		title: 'Biometric & Access Control',
 		shortDesc:
-			'We provide tailored CCTV solutions for schools, colleges, and institutions therefore, ensuring a safe, monitored environment that protects students, staff, and property around the clock.',
+			'Secure your premises with biometric attendance, RFID access, and smart entry systems built for controlled access and employee safety.',
+		link: '/services/biometric-machine',
 	},
 	{
 		image: 'images/homepage-1/service/service-05.jpg',
 		icon: <BsBank2 />,
-		title: 'Banking Sector Outside',
+		title: 'Electronic Door Lock',
 		shortDesc:
-			'Our robust outdoor CCTV systems for banks offer high-resolution surveillance, tamper-proof hardware, and 24/7 monitoring, securing ATMs, entrances, and perimeters against 	threats and unauthorized activity.',
+			'Upgrade to smart and secure locking systems for homes, offices, and storefronts with keyless convenience and stronger access control.',
+		link: '/services/electronic-door-lock',
 	},
 	{
 		image: 'images/homepage-1/service/service-01.jpg',
 		icon: <MdCorporateFare />,
-		title: 'Private Sector Security',
+		title: 'Video Door Phone',
 		shortDesc:
-			'We deliver smart, scalable security solutions for the private sector, protecting offices, assets, and personnel with advanced surveillance technology tailored to your business needs.',
+			'See and speak with visitors before opening the door with modern video door phones for apartments, villas, and office entrances.',
+		link: '/services/video-door-phone',
 	},
 	{
 		image: 'images/homepage-1/service/service-02.jpg',
 		icon: <BsFillBuildingsFill />,
-		title: 'Mall & Super Store Security',
+		title: 'Security Alarm & Fire Alarm',
 		shortDesc:
-			'Our CCTV systems for malls and superstores ensure wide-area coverage, real-time monitoring, and theft prevention which keeps customers safe and operations running smoothly.',
+			'Protect your property with smart alarm systems, intruder detection, and fire alarm solutions for a safer residential or business environment.',
+		link: '/services/security-alarm-panel',
 	},
 ];
 
@@ -83,7 +88,7 @@ const ServiceHome = () => {
 					</div>
 					<a
 						className='pbmit-btn pbmit-btn-outline'
-						href='#'>
+						href='/services'>
 						<span>Show All Service</span>
 					</a>
 				</div>
@@ -109,7 +114,7 @@ const ServiceHome = () => {
 												</div>
 												<h3 className='pbmit-service-title'>
 													<a
-														href='#'
+														href={item.link}
 														className='text-decoration-none'>
 														{item.title}
 													</a>

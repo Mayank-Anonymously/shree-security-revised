@@ -3,100 +3,98 @@ import React from 'react';
 const Footer = () => {
 	return (
 		<>
-			<footer class='footer-style-1 site-footer pbmit-bg-color-light'>
-				<div class='footer-wrap pbmit-footer-big-area'>
-					<div class='container'>
-						<div class='row'>
-							<div class='col-md-12'>
-								<form>
-									<div class='pbmit-footer-newsletter'>
-										<div class='pbmit-footer-icon-title d-flex align-items-center'>
-											<i class='pbmit-base-icon-mailbox-new'></i>
-											<h3 class='pbmit-footer-title'>
-												Subscribe To <br />
-												Our Newsletter
-											</h3>
-										</div>
-										<div class='pbmit-footer-email-button'>
-											<input
-												type='email'
-												class='form-control'
-												name='EMAIL'
-												placeholder='Your email address'
-											/>
-											<button>send us</button>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class='pbmit-footer-widget-area'>
-					<div class='container'>
-						<div class='row'>
-							<div class='pbmit-footer-widget-col-1 col-md-6 col-lg-3'>
-								<aside class='widget widget_text'>
-									<h2 class='widget-title'>Contact Us</h2>
+			<footer className='footer-style-1 site-footer pbmit-bg-color-light'>
+				<div className='pbmit-footer-widget-area'>
+					<div className='container'>
+						<div className='row'>
+							<div className='pbmit-footer-widget-col-1 col-md-6 col-lg-3'>
+								<aside className='widget widget_text'>
+									<h2 className='widget-title'>Contact Us</h2>
 								</aside>
-								<aside class='pbm_addons_contact_widget'>
-									<div class='pbmit-contact-widget-lines'>
-										<div class='pbmit-contact-widget-line pbmit-contact-widget-address'>
-											A-146, Top Floor, Veer Savarkar Block, Block S1, <br />{' '}
+								<aside className='pbm_addons_contact_widget'>
+									<div className='pbmit-contact-widget-lines'>
+										<div className='pbmit-contact-widget-line pbmit-contact-widget-address'>
+											A-146, Top Floor, Veer Savarkar Block, Block S1, <br />
 											Shakarpur, Delhi, 110092, India
 										</div>
-										<div class='pbmit-contact-widget-line pbmit-contact-widget-phone'>
+										<div className='pbmit-contact-widget-line pbmit-contact-widget-phone'>
 											+91 9015704448
 										</div>
-										<div class='pbmit-contact-widget-line pbmit-contact-widget-email'>
-											<a
-												href='/'
-												class='__cf_email__'
-												data-cfemail='204e4f0d5245504c596050424d494e464f544543480e434f4d'>
+										<div className='pbmit-contact-widget-line pbmit-contact-widget-email'>
+											<a href='mailto:support@shreesecuritycamera.com'>
 												support@shreesecuritycamera.com
 											</a>
 										</div>
 									</div>
 								</aside>
 							</div>
-							<div class='pbmit-footer-widget-col-2 col-md-6 col-lg-3'>
-								<div class='widget'>
-									<h2 class='widget-title'>Services</h2>
-									<div class='textwidget'>
+
+							<div className='pbmit-footer-widget-col-2 col-md-6 col-lg-3'>
+								<div className='widget'>
+									<h2 className='widget-title'>Services</h2>
+									<div className='textwidget'>
 										<ul>
 											<li>
 												<a
 													className='text-decoration-none text-black'
-													href='/service/cctv-installation'>
+													href='/services/cctv-installation'>
 													CCTV Camera Installation
 												</a>
 											</li>
 											<li>
 												<a
 													className='text-decoration-none text-black'
-													href='/service/electronic-door-lock'>
+													href='/services/electronic-door-lock'>
 													Electronic Door Lock
 												</a>
 											</li>
 											<li>
 												<a
 													className='text-decoration-none text-black'
-													href='/service/biometric-machine'>
+													href='/services/biometric-machine'>
 													Biometric &amp; Access Control System
 												</a>
 											</li>
 											<li>
 												<a
 													className='text-decoration-none text-black'
-													href='/service/video-door-phone'>
+													href='/services/video-door-phone'>
 													Video Door Phone
 												</a>
 											</li>
 											<li>
 												<a
 													className='text-decoration-none text-black'
-													href='/service/security-alarm-panel'>
+													href='/services/security-alarm-panel'>
 													Security Alarm &amp; Fire Alarm
+												</a>
+											</li>
+											<li>
+												<a
+													className='text-decoration-none text-black'
+													href='/services/delhi'>
+													Delhi Security Cameras
+												</a>
+											</li>
+											<li>
+												<a
+													className='text-decoration-none text-black'
+													href='/services/noida'>
+													Noida Security Cameras
+												</a>
+											</li>
+											<li>
+												<a
+													className='text-decoration-none text-black'
+													href='/services/gurgaon'>
+													Gurgaon Security Cameras
+												</a>
+											</li>
+											<li>
+												<a
+													className='text-decoration-none text-black'
+													href='/services/faridabad'>
+													Faridabad Security Cameras
 												</a>
 											</li>
 										</ul>
@@ -104,92 +102,83 @@ const Footer = () => {
 								</div>
 							</div>
 
-							<div class='pbmit-footer-widget-col-3 col-md-6 col-lg-3'>
-								<div class='widget'>
-									<h2 class='widget-title'>Our pages</h2>
+							<div className='pbmit-footer-widget-col-3 col-md-6 col-lg-3'>
+								<div className='widget'>
+									<h2 className='widget-title'>Our pages</h2>
 									<ul>
 										<li>
-											<a href='about-us'>About</a>
+											<a href='/'>Home</a>
 										</li>
 										<li>
-											<a href='contact-us'>Contact us</a>
+											<a href='/about-us'>About</a>
 										</li>
 										<li>
-											<a href='/'>Latest Blog</a>
+											<a href='/services'>All Services</a>
+										</li>
+										<li>
+											<a href='/privacy-policy'>Privacy Policy</a>
+										</li>
+										<li>
+											<a href='/terms-and-conditions'>Terms &amp; Conditions</a>
+										</li>
+										<li>
+											<a href='/services/delhi'>Delhi</a>
+										</li>
+										<li>
+											<a href='/services/noida'>Noida</a>
+										</li>
+										<li>
+											<a href='/services/gurgaon'>Gurgaon</a>
+										</li>
+										<li>
+											<a href='/services/faridabad'>Faridabad</a>
+										</li>
+										<li>
+											<a href='/contact-us'>Contact us</a>
 										</li>
 									</ul>
 								</div>
 							</div>
-							<div class='pbmit-footer-widget-col-3 col-md-6 col-lg-3'>
-								<div class='widget'>
-									<h2 class='widget-title'>Opening Hours</h2>
-									<ul class='pbmit-timelist-list'>
+
+							<div className='pbmit-footer-widget-col-3 col-md-6 col-lg-3'>
+								<div className='widget'>
+									<h2 className='widget-title'>Opening Hours</h2>
+									<ul className='pbmit-timelist-list'>
 										<li>
-											<span class='pbmit-timelist-li-title'>Monday</span>
-											<span class='pbmit-timeline-timming'> 8am - 2pm</span>
+											<span className='pbmit-timelist-li-title'>Monday</span>
+											<span className='pbmit-timeline-timming'> 8am - 2pm</span>
 										</li>
 										<li>
-											<span class='pbmit-timelist-li-title'>Tuesday</span>
-											<span class='pbmit-timeline-timming'> 10am - 4pm</span>
+											<span className='pbmit-timelist-li-title'>Tuesday</span>
+											<span className='pbmit-timeline-timming'>
+												{' '}
+												10am - 4pm
+											</span>
 										</li>
 										<li>
-											<span class='pbmit-timelist-li-title'>Wednesday</span>
-											<span class='pbmit-timeline-timming'> 11am - 4pm</span>
+											<span className='pbmit-timelist-li-title'>Wednesday</span>
+											<span className='pbmit-timeline-timming'>
+												{' '}
+												11am - 4pm
+											</span>
 										</li>
 										<li>
 											<span>* Close on public holidays</span>
 										</li>
 									</ul>
 								</div>
-								<ul class='pbmit-social-links'>
-									<li class='pbmit-social-li pbmit-social-facebook'>
-										<a
-											href='https://www.facebook.com/'
-											target='_blank'>
-											<span>
-												<i class='pbmit-base-icon-facebook-f'></i>
-											</span>
-										</a>
-									</li>
-									<li class='pbmit-social-li pbmit-social-twitter'>
-										<a
-											href='https://www.twitter.com/'
-											target='_blank'>
-											<span>
-												<i class='pbmit-base-icon-twitter-1'></i>
-											</span>
-										</a>
-									</li>
-									<li class='pbmit-social-li pbmit-social-instagram'>
-										<a
-											href='https://www.instagram.com/'
-											target='_blank'>
-											<span>
-												<i class='pbmit-base-icon-instagram'></i>
-											</span>
-										</a>
-									</li>
-									<li class='pbmit-social-li pbmit-social-youtube'>
-										<a
-											href='https://www.youtube.com/'
-											target='_blank'>
-											<span>
-												<i class='pbmit-base-icon-youtube-play'></i>
-											</span>
-										</a>
-									</li>
-								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class='pbmit-footer-text-area'>
-					<div class='container'>
-						<div class='pbmit-footer-text-inner'>
-							<div class='row'>
-								<div class='col-md-12'>
-									<div class='pbmit-footer-copyright-text-area'>
-										© Copyright 2025 The <a href='/'>Shree Security Camera</a>{' '}
+
+				<div className='pbmit-footer-text-area'>
+					<div className='container'>
+						<div className='pbmit-footer-text-inner'>
+							<div className='row'>
+								<div className='col-md-12'>
+									<div className='pbmit-footer-copyright-text-area'>
+										© Copyright 2026 The <a href='/'>Shree Security Camera</a>{' '}
 										All Rights Reserved.
 									</div>
 								</div>

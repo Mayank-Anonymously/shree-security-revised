@@ -1,23 +1,41 @@
+'use client';
 import React from 'react';
 
 const NumberBanner = () => {
 	return (
 		<>
-			<section class='overflow-hidden'>
-				<div class='container'>
-					<div class='about-us_one'>
-						<div class='about-us-one_bg'></div>
-						<div class='row'>
-							<div class='col-md-2'></div>
-							<div class='col-md-8'>
-								<div class='pbmit-ihbox-style-4'>
-									<div class='pbmit-ihbox-headingicon'>
-										<div class='pbmit-ihbox-contents'>
-											<h4 class='pbmit-heading'>Let’s Work Together</h4>
-											<h2 class='pbmit-title'>
-												<a href='tel:+91 9015704448'>+91 9015704448</a>
+			<section className='overflow-hidden'>
+				<div className='container'>
+					<div className='about-us_one'>
+						<div className='about-us-one_bg'></div>
+						<div className='row'>
+							<div className='col-md-2'></div>
+							<div className='col-md-8'>
+								<div className='pbmit-ihbox-style-4'>
+									<div className='pbmit-ihbox-headingicon'>
+										<div className='pbmit-ihbox-contents'>
+											<h4 className='pbmit-heading'>Let’s Work Together</h4>
+											<h2 className='pbmit-title '>
+												<a
+													href='tel:+919015704448'
+													className='text-white text-decoration-none'
+													onClick={(e) => {
+														e.preventDefault();
+														if (typeof window !== 'undefined' && window.gtag) {
+															window.gtag('event', 'conversion', {
+																send_to: 'AW-16712967012/57KYCMvIztcZEOTGrqE-',
+																event_callback: function () {
+																	window.location = 'tel:+919015704448';
+																},
+															});
+														} else {
+															window.location = 'tel:+919015704448';
+														}
+													}}>
+													+91 9015704448
+												</a>
 											</h2>
-											<div class='pbmit-heading-desc'>
+											<div className='pbmit-heading-desc'>
 												What are you waiting for to register and start
 												<br /> this new adventure?
 											</div>
@@ -25,7 +43,7 @@ const NumberBanner = () => {
 									</div>
 								</div>
 							</div>
-							<div class='col-md-2'></div>
+							<div className='col-md-2'></div>
 						</div>
 					</div>
 				</div>
