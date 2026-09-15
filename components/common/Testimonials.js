@@ -132,9 +132,9 @@ const Testimonials = () => {
 												<span className='pbmit-number-rotate'>4.8</span>
 											</h4>
 											<h3 className='pbmit-fid-title'>
-												Rating from
+												Trusted by
 												<br />
-												100+ Clients
+												Indian homes and businesses
 											</h3>
 										</div>
 									</div>
